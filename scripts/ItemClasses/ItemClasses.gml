@@ -2,6 +2,8 @@ function Item () constructor {
 	name = "";
 	price = 0;
 	attackPower = 1;
+	
+	Effect = function () {}
 }
 
 function Potion () : Item () constructor {
